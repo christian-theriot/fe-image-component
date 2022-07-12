@@ -1,0 +1,7 @@
+{
+  "$schema": "../../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../../dist/theriot.dev/fe-image-component",
+  "lib": {
+    "entryFile": "src/public-api.ts"
+  }
+}

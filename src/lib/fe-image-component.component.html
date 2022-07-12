@@ -1,0 +1,10 @@
+<picture class="component component-image">
+  <source
+    *ngFor="let source of sources"
+    [srcset]="source.srcset ?? null"
+    [type]="source.type ?? null"
+    [media]="source.media ?? null"
+    [sizes]="source.sizes ?? null"
+  />
+  <img [src]="src" [alt]="alt" [attr.loading]="loading" />
+</picture>
