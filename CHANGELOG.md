@@ -1,5 +1,9 @@
 # FeImageComponent
 
+## v0.1.1
+
+- Export `SourceSet` type
+
 ## v0.1.0
 
 - Create component library
